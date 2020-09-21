@@ -6,12 +6,12 @@
 // All it does is render <div>Hello Vue</div> at the bottom of the page.
 
 import Vue from 'vue'
-import App from '../../components/app.vue'
+import Staff from '../../components/staff.vue'
 
 document.addEventListener('DOMContentLoaded', () => {
   new Vue({
     el: '#app',
-    render: h => h(App)
+    render: h => h(Staff)
   }).$mount()
 })
 

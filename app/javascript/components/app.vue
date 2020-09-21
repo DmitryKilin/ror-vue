@@ -1,6 +1,5 @@
 <template lang="pug">
   #app
-    staff
     p Vue App
 </template>
 
@@ -21,5 +20,7 @@ export default {
 p {
   font-size: 2em;
   text-align: center;
+  color: #730E15;
 }
+
 </style>

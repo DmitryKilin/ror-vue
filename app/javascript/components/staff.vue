@@ -1,10 +1,13 @@
 <template lang="pug">
-  #app
-    p PUG
+  .container
+    navbar
 </template>
 
 <script>
+import Navbar from './navbar'
+
 export default {
+  components: {Navbar},
   data: function () {
     return {
       message: "Hey Staff!!! Yours sincerely, Vue!"
@@ -14,14 +17,10 @@ export default {
 </script>
 
 <style scoped>
-p {
-  font-size: 2em;
-  text-align: center;
-}
-#app {
+.container {
   width: 1224px;
   margin: 0 auto;
-  background-color: #cc6633;
-  color: #663399;
+  background-color: #fff;
+  color: #000
 }
 </style>
