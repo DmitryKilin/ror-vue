@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2020_09_14_104617) do
     t.index ["reset_password_token"], name: "index_clients_on_reset_password_token", unique: true
   end
 
-  create_table "staffs", force: :cascade do |t|
+  create_table "staff", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"

@@ -1,11 +1,14 @@
-<template>
-  <div id="app">
-    <p>{{ message }}</p>
-  </div>
+<template lang="pug">
+  #app
+    staff
+    p Vue App
 </template>
 
 <script>
+import Staff from "./staff";
+
 export default {
+  components: {Staff},
   data: function () {
     return {
       message: "Hello Vue, yours sincerely!"
